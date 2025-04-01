@@ -2,6 +2,10 @@
 
 ![Game Logo](https://raw.githubusercontent.com/xiiv420/XIIV_/main/logo.jpg)
 
+game_presentation
+
+https://gamma.app/docs/THE--2km5pwfc49hlrkn?mode=doc
+
 _A pixel-art adventure game built with SDL1.2 in C_
 
 ## 🎮 About the Game
@@ -52,7 +56,7 @@ make
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 ## 👥 Contributors
-- **Amir Nasri** – Lead Developer 🎮
+- **Amir Nasri**
 - **Rouaa Kaadri**
 - **Souha Gmati**
 - **Ahmed Thabti**
