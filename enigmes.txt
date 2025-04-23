@@ -1,0 +1,21 @@
+ What causes disease, invisible? A Plant . B Virus . C Metal . 2
+ Which organ cleans air? A Heart . B Liver . C Lungs . 3
+ Which habit strengthens body? A Staying up late . B Neglect . C Cleanliness . 3
+ Best protection vs viruses? A Glasses . B Mask . C Gloves .  2
+ Which mineral boosts immunity? A Copper . B Zinc . C Lead .  2
+ Which vitamin boosts immunity? A B . B K . C D . 3
+ Why are viruses hard to treat? A Size . B Color . C Speed . 3
+ Who is most at risk? A Young people . B Kids . C Elderly .  3
+ What defends from invaders? A Nervous system . B Digestive system . C Immune system .  3
+ What protects without walls? A Skin . B Lymph . C Antibodies .  1
+ What strengthens vs viruses? A Painkillers . B Vaccine . C Antibiotics .  2
+ What blocks viruses, no doors? A Skin . B Hair . C Nails .  1
+ What kills bacteria silently? A Enzymes . B White blood cells . C Proteins . 2
+ What guards without visible walls? A Mucous membranes . B Blood . C Liver .  1
+ What kills viruses silently? A Nerve cells . B T-cells . C Visual cells .  2
+ What gives energy + immunity? A Exercise . B Nutrition . C Sunlight .  2
+ What boosts immune defense? A Sleep . B Stress . C Exercise .  3
+ Which organ filters toxins? A Kidneys . B Stomach . C Liver .  1
+ What destroys intruders? A White blood cells . B Red blood cells . C Platelets .  1
+ What helps healing? A Sleep . B Bandages . C Immune system .  3
+
