@@ -1,21 +1,21 @@
- What causes disease, invisible? A Plant . B Virus . C Metal . 2
- Which organ cleans air? A Heart . B Liver . C Lungs . 3
- Which habit strengthens body? A Staying up late . B Neglect . C Cleanliness . 3
- Best protection vs viruses? A Glasses . B Mask . C Gloves .  2
- Which mineral boosts immunity? A Copper . B Zinc . C Lead .  2
- Which vitamin boosts immunity? A B . B K . C D . 3
- Why are viruses hard to treat? A Size . B Color . C Speed . 3
- Who is most at risk? A Young people . B Kids . C Elderly .  3
- What defends from invaders? A Nervous system . B Digestive system . C Immune system .  3
- What protects without walls? A Skin . B Lymph . C Antibodies .  1
- What strengthens vs viruses? A Painkillers . B Vaccine . C Antibiotics .  2
- What blocks viruses, no doors? A Skin . B Hair . C Nails .  1
- What kills bacteria silently? A Enzymes . B White blood cells . C Proteins . 2
- What guards without visible walls? A Mucous membranes . B Blood . C Liver .  1
- What kills viruses silently? A Nerve cells . B T-cells . C Visual cells .  2
- What gives energy + immunity? A Exercise . B Nutrition . C Sunlight .  2
- What boosts immune defense? A Sleep . B Stress . C Exercise .  3
- Which organ filters toxins? A Kidneys . B Stomach . C Liver .  1
- What destroys intruders? A White blood cells . B Red blood cells . C Platelets .  1
- What helps healing? A Sleep . B Bandages . C Immune system .  3
+What agent causes disease but is unseen? A  Plant . B  Virus . C  Metal . 2
+Which organ helps clean the air we breathe? A  Heart . B  Liver . C  Lungs . 3
+What habit best strengthens the whole body? A  Late . B  Neglect . C  Clean . 3
+What offers best defense against virus? A  Glasses . B  Mask . C  Gloves . 2
+Which mineral helps boost immunity level? A  Copper . B  Zinc . C  Lead . 2
+Which vitamin supports the immune system? A  B . B  K . C  D . 3
+Why are viruses hard to eliminate always? A  Size . B  Color . C  Speed . 3
+Which group is most at risk from virus? A  Youths . B  Kids . C  Elderly . 3
+Which system fights off body invaders? A  Nervous . B  Digest . C  Immune . 3
+What guards the body without a real wall? A  Skin . B  Lymph . C  Antibodies . 1
+What defends us best from a virus threat? A  Pills . B  Vaccine . C  Antibiotic . 2
+What stops viruses with no kind of door? A  Skin . B  Hair . C  Nails . 1
+Which cells kill bacteria quietly inside? A  Enzymes . B  WBCs . C  Proteins . 2
+What protects body without hard borders? A  Mucous . B  Blood . C  Liver . 1
+What kills viruses but makes no sound? A  Nerves . B  T-cells . C  Visuals . 2
+What boosts energy and immune health too? A  Exercise . B  Food . C  Sun . 2
+What action increases immune response? A  Sleep . B  Stress . C  Sport . 3
+Which organ helps clean toxins from blood? A  Kidneys . B  Stomach . C  Liver . 1
+Which blood cells fight invaders fast? A  White . B  Red . C  Platelets . 1
+What helps the body recover from damage? A  Sleep . B  Wrap . C  Immune . 3
 
