@@ -26,6 +26,8 @@ typedef struct {
     SDL_Rect pos_rep1; /*!< Position de la première réponse */
     SDL_Rect pos_rep2; /*!< Position de la deuxième réponse */
     SDL_Rect pos_rep3; /*!< Position de la troisième réponse */
+    
+    SDL_Rect pos_rep4;  /*!< Position de msg */
 
     TTF_Font *font; /*!< Police utilisée pour le texte */
     SDL_Color textColor; /*!< Couleur du texte */

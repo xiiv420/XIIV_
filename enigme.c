@@ -302,47 +302,50 @@ void afficher_timer(SDL_Surface *screen, enigme *e) {
  */
 
 void afficher_message(SDL_Surface *screen, SDL_Surface *background, char* texte_a_afficher, SDL_Color couleur, Mix_Chunk *sound) {
-    TTF_Font *font = TTF_OpenFont("/home/gmati/Enigme (7th copy)/pixel .ttf", 40);
+    TTF_Font *font = NULL;
+    SDL_Surface *msg = NULL;
+    SDL_Surface *zoomed = NULL;
+    SDL_Rect pos;
+    int frames = 60;
+    int i;
+    float progress;
+    float zoom;
+    float rotation;
+    font = TTF_OpenFont("/home/gmati/Enigme (7th copy)/pixel .ttf", 40);
     if (!font) {
         printf("Erreur ouverture police: %s\n", TTF_GetError());
         return;
     }
-    SDL_Surface *msg = TTF_RenderText_Solid(font, texte_a_afficher, couleur);
+    msg = TTF_RenderText_Solid(font, texte_a_afficher, couleur);
     if (!msg) {
         printf("Erreur rendu texte: %s\n", TTF_GetError());
         TTF_CloseFont(font);
         return;
     }
     Mix_PlayChannel(-1, sound, 0);
+//
+    for (i = 0; i <= frames; i++) {
+        progress = (float)i / frames;
+        zoom = 0.5 + progress * (1.5 - 0.5);
+        rotation = progress * 360.0;
 
-    int frames = 60;
-    for (int i = 0; i <= frames; i++) {
-        float progress = (float)i / frames;
-        float zoom = 0.5 + progress * (1.5 - 0.5);
-        float angle = progress * 360.0;
+        zoomed = rotozoomSurface(msg,rotation, zoom, 0);
 
-        SDL_Surface *zoomed = rotozoomSurface(msg, angle, zoom, 1);
         if (!zoomed) {
             printf("Erreur lors de l'application de rotozoom.\n");
             break;
         }
-
-        // Centre l'animation sur l'écran
-        SDL_Rect pos;
+//
         pos.x = (screen->w - zoomed->w) / 2;
         pos.y = (screen->h - zoomed->h) / 2;
 
-        // Réaffiche le fond 
         SDL_BlitSurface(background, NULL, screen, NULL);
-
-        // Affiche le texte zoomé et tourné
         SDL_BlitSurface(zoomed, NULL, screen, &pos);
         SDL_Flip(screen);
 
         SDL_FreeSurface(zoomed);
         SDL_Delay(30);
     }
-
     SDL_FreeSurface(msg);
     TTF_CloseFont(font);
 }
